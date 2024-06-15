@@ -1,6 +1,10 @@
 {
   "name": "test-spa",
   "version": "0.0.0",
+  "engines": {
+    "node": "20.10.0",
+    "npm": "10.2.3"
+  },
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
