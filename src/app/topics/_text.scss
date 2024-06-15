@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+@import "@fontsource/montserrat";
 
 @mixin text-settings($weight, $size, $line-height, $color) {
-    font-family: 'Montserrat';
-    font-weight: $weight;
-    font-size: $size;
-    line-height: $line-height;
-    color: $color;
+  font-family: 'Montserrat';
+      font-weight: $weight;
+      font-size: $size;
+      line-height: $line-height;
+      color: $color;
 }
